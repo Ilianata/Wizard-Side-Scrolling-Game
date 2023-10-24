@@ -6,6 +6,7 @@ body {
 
 .game {
     background-color: rgb(173, 177, 230);
+    background-image: linear-gradient(210deg, rgba(248, 200, 220, 1)0%, rgba(218, 112, 214, 1) 100%);
     width: 100vw;
     height: 100vh;
 }
@@ -14,7 +15,8 @@ body {
     font-size: 48px;
     width: 500px;
     background-color: rgb(255, 127, 244);
-    color: rgb(43, 66, 87);
+    background-image: linear-gradient(0deg, rgba(170, 51, 106, 1) 0% , rgba(255, 105, 180, 1) 40%, rgba(248, 200, 220, 1) 100%);
+    color: rgb(41, 2, 41);
     position: absolute;
     left: 50%;
     top: 30%;
@@ -26,14 +28,18 @@ body {
 
 }
 .game-screen {
-    background-color: #c06c84;
+    position: relative;
+    background: rgb(61, 160, 244);
+    background: linear-gradient(0deg, rgba(61, 160, 244, 1) 0%, rgba(192, 221, 246, 1) 33%, rgba(55, 157, 244, 1) 100%);
     width: 100%;
     height: 100%;
+    margin: 0;
     
 }
 .score {
     border-radius: 25px;
-    background-color: #6c5b7b;
+    background-color: rgb(15, 82, 186);
+    background-image: linear-gradient(90deg, rgba(15, 82, 186, 1) 0%, rgb(135, 206, 235) 90%);
     color: rgb(236, 233, 240);
     position: absolute;
     top: 10px;
@@ -41,7 +47,7 @@ body {
     zoom: 2;
     background-size: cover;
     outline-offset: 2px;
-    outline: auto #6c5b7b;
+    outline: auto rgb(137, 207, 240);
     
     
 }
